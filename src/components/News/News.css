@@ -1,7 +1,6 @@
 .news-container {
-    margin: 100px 40px;
+    margin: 100px 40px 0px 40px;
 }
-
 /* News section styling */
 .news-section {
   background: #0c1c2c;

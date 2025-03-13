@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import logo from '../assets/img/image.png'; // Make sure to add your logo image
+import logo from '../../assets/img/image.png'; // Make sure to add your logo image
 
 function Header() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './News.css';
-import bannerImage from '../assets/img/banner.png';
+import bannerImage from '../../assets/img/banner.png';
 
 function News() {
   return (

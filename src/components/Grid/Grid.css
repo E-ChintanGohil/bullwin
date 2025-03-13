@@ -1,0 +1,28 @@
+.game-grid-container {
+  padding: 5px 40px;
+}
+
+.game-grid-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.game-grid-col {
+  width: 100%;
+  position: relative;
+}
+
+.px2 {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .game-grid-container {
+    padding: 5px 15px;
+  }
+  
+  .game-grid-row {
+    gap: 10px;
+  }
+} 

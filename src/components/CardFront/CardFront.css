@@ -1,0 +1,92 @@
+.game-card-div {
+  margin-bottom: 0;
+  position: relative;
+  background: #000;
+  height: 100%;
+  overflow: hidden;
+}
+
+.game-card-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.game-card-title {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  background-image: linear-gradient(270deg, rgba(69,94,104,0) 4%, #000 97%);
+  justify-content: space-between;
+  margin: 0;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 15px;
+  align-items: center;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.game-card-sports {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.7) 82%, transparent 100%);
+  padding: 10px 5px;
+  text-align: left;
+  width: 150px;
+  max-height: -webkit-fill-available;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.game-card-sport-link {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.game-card-sport-count {
+  color: #333333;
+  background: #FFFFFF;
+  text-align: center;
+  border-radius: 3px;
+  padding: 0 3px;
+  min-width: 16px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.game-card-sport-name {
+  cursor: pointer;
+  line-height: 1.8;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.game-card-live {
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.game-card-live span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 50%;
+  margin-right: 5px;
+} 

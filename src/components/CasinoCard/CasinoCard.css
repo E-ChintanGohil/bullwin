@@ -1,0 +1,36 @@
+.casino-card-div {
+  position: relative;
+  background: #000;
+  height: 100%;
+  overflow: hidden;
+}
+
+.casino-card-image {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.casino-card-title {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  background-image: linear-gradient(270deg, rgba(69,94,104,0) 4%, #000 97%);
+  justify-content: space-between;
+  margin: 0;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 14px;
+  align-items: center;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.casino-card-link {
+  text-decoration: none;
+  display: block;
+} 

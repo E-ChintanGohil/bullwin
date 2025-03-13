@@ -1,5 +1,5 @@
 import React from 'react';
-import { navItems } from '../data/nav';
+import { navItems } from '../../data/nav';
 import './Navigation.css';
 
 function Navigation() {
