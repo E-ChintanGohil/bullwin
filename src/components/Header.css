@@ -1,0 +1,189 @@
+
+
+.header {
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.header nav a:hover {
+  color: #ddd;
+}
+
+.navbar-custom {
+  background-color: #000000;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-box {
+  padding: 10px 0;
+}
+
+.logo-box img {
+  height: 45px;
+  width: auto;
+}
+
+.topnav-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.form-control {
+    display: block;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: .2rem;
+    transition: border-color .15sease-in-out, box-shadow .15sease-in-out;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    margin: 0 3px;
+}
+
+.btnlogin {
+  background: var(--log-button);
+  color: #fff;
+  font-size: 13px;
+  text-transform: capitalize;
+  padding: 2px 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  margin-right: 3px;
+  margin-left: 0;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btnlogin:hover {
+  background: linear-gradient(180deg, #6a0f14 0%, #c1080d 100%);
+}
+
+.btn-signup {
+    background: linear-gradient(-180deg, #666666 0%, #333333 100%) !important;
+    color: #fff;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 0;
+}
+
+.btn-signup:hover {
+  background-color: #5a6268;
+  color: white;
+}
+
+.btn-forgot {
+    background: linear-gradient(-180deg, #666666 0%, #333333 100%) !important;
+    color: #fff;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 4px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 0;
+    border: none;
+    
+}
+
+.btn-forgot:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.mdi {
+  font-size: 17px;
+  color: white;
+  margin-right: 4px;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+}
+
+/* Remove default button styles */
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Ensure all elements are aligned properly */
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+/* Add Material Design Icons */
+@import url("https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css");
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .form-control {
+    width: 150px;
+  }
+  
+  .btnlogin, .btn-signup, .btn-forgot {
+    padding: 8px 12px;
+  }
+}
+
+.row.align-items-center {
+  display: flex;
+  margin: 0;
+}
+
+.col-auto {
+  display: flex;
+  align-items: center;
+} 

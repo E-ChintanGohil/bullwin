@@ -1,0 +1,95 @@
+.news-container {
+    margin: 100px 40px;
+}
+
+/* News section styling */
+.news-section {
+  background: #0c1c2c;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.news-section i {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.news-section h4 {
+  color: #fff;
+  margin: 0;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #000;
+  display: flex;
+  align-items: center;
+}
+
+.marquee-box {
+  display: flex;
+  color: #fff;
+  line-height: 26px;
+  height: 26px;
+  background: var(--commentary);
+  margin-bottom: 1px;
+}
+
+.marquee-box h4 {
+  font-size: 12px;
+  padding: 4px 15px 4px 4px;
+  font-weight: normal;
+  margin-left: 5px;
+  margin: 0 !important;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.marquee-box h4:after {
+  content: '';
+  height: 26px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.marquee-box h4 i {
+  margin-right: 2px;
+  font-size: 20px;
+}
+
+.marquee-box marquee {
+  color: var(--marquee);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+/* Banner image styling */
+.banner-section {
+  padding: 0;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Row and column adjustments */
+.row {
+  margin: 0;
+}
+
+.col-md-12 {
+  padding: 0;
+}
+
+/* Add Material Design Icons */
+@import url("https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css"); 

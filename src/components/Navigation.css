@@ -1,0 +1,129 @@
+.sub-navbar {
+  background: var(--top-navbar);
+  padding: 0;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item a {
+  font-size: 12px;
+  padding: 4px 10px;
+  display: inline-block;
+  border-right: 1px solid rgba(69, 32, 7, .2);
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 700;
+  position: relative;
+}
+
+.nav-item a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-item a.active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-item a em {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: normal;
+  font-style: normal;
+  font-size: 7px;
+  padding: 1px 4px;
+  border-radius: 1px;
+  font-weight: 900;
+  text-transform: uppercase;
+  animation: tagmenu 2s ease-out infinite;
+}
+
+/* Update animation keyframes */
+@keyframes tagmenu {
+  0% {
+    background: red;
+    color: #fff;
+  }
+  50% {
+    background: #fff;
+    color: red;
+  }
+  100% {
+    background: yellow;
+    color: #000;
+  }
+}
+
+.hightlight-menus {
+  animation: zoom-in-out 1s ease-out infinite;
+  transform-origin: center;
+  color: #ffd700;
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(1, 1);
+    background: yellow;
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+    background: darkred;
+    color: #fff;
+    box-shadow: inset 0px 2px 4px 0px #1b00ff;
+  }
+  100% {
+    transform: scale(1, 1);
+    background: blue;
+  }
+}
+
+/* Update the hover effect for highlighted menus */
+.hightlight-menus:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.new-tag-menus {
+  color: #00ff00 !important;
+}
+
+.sb-menus {
+  color: #ff6b6b !important;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.navbar-nav::-webkit-scrollbar {
+  display: none;
+}
+
+/* Remove the old scrollbar styles */
+.navbar-nav::-webkit-scrollbar-track,
+.navbar-nav::-webkit-scrollbar-thumb,
+.navbar-nav::-webkit-scrollbar-thumb:hover {
+  display: none;
+} 

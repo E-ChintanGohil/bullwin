@@ -1,0 +1,33 @@
+:root {
+  --log-button: linear-gradient(180deg, #7f1117 0%, #d7090f 100%);
+  --theme-navbar: #000;
+  --top-navbar: linear-gradient(180deg, #7f1117 0%, #d7090f 100%);
+  --theme-color: #012c3c;
+  --menu-active: linear-gradient(180deg, #123696 0%, #13a0dd 61%);
+  --commentary: #012c3c;
+  --tabs: #012c3c;
+  --semi-dark: #444;
+  --dark: #212121;
+  --footer-menu-mobile:linear-gradient(180deg, #7f1117 0%, #d7090f 100%);
+  --m-stake:#ffbf19;
+  --log-button:linear-gradient(180deg, #7f1117 0%, #d7090f 100%);
+  --white-bg: #fff;
+  --fancy-icon: #095964;
+  --marquee:#6AC2FF;
+  --filter:none;
+  --footer-menu-active-color:#7f1117;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

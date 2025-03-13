@@ -1,0 +1,22 @@
+export const navItems = [
+  { id: 1, name: 'Home', path: '#/guest/dashboard', isNew: false },
+  { id: 2, name: 'In-Play', path: '#/guest/inplay', isNew: false },
+  { id: 3, name: 'Cricket', path: '#/guest/sports/4', isNew: true },
+  { id: 4, name: 'Football', path: '#/guest/sports/1', isNew: true },
+  { id: 5, name: 'Tennis', path: '#/guest/sports/2', isNew: true },
+  { id: 6, name: 'Casino', path: '#/guest/sports/99999', isNew: true, highlight: true },
+  { id: 7, name: 'Int Casino', path: '#/guest/sports/99998', isNew: true, highlight: true },
+  { id: 8, name: 'Sports Book', path: 'javascript:void(0)', isNew: true, className: 'sb-menus' },
+  { id: 9, name: 'Horse Racing', path: '#/guest/sports/7', isNew: true },
+  { id: 10, name: 'Greyhound Racing', path: '#/guest/sports/4339', isNew: true },
+  { id: 11, name: 'Binary', path: '#/guest/sports/99990', isNew: true, className: 'new-tag-menus' },
+  { id: 12, name: 'Kabaddi', path: '#/guest/sports/99994', isNew: true },
+  { id: 13, name: 'Politics', path: '#/guest/sports/2378961', isNew: true },
+  { id: 14, name: 'Basketball', path: '#/guest/sports/7522', isNew: true },
+  { id: 15, name: 'Baseball', path: '#/guest/sports/7511', isNew: true },
+  { id: 16, name: 'Table Tennis', path: '#/guest/sports/20', isNew: true },
+  { id: 17, name: 'Volleyball', path: '#/guest/sports/998917', isNew: true },
+  { id: 18, name: 'Ice Hockey', path: '#/guest/sports/7524', isNew: true },
+  { id: 19, name: 'Rugby', path: '#/guest/sports/5', isNew: true },
+  { id: 20, name: 'Mixed Martial Arts', path: '#/guest/sports/26420387', isNew: true }
+]; 
